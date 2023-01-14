@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="background-color:aqua;">
+    <h1 style="text-align:center">Registration Form</h1>
+
+    <form action="action.php">
+            <fieldset>
+            <legend>Personal Details</legend> <!--legend-elements representing information about other contents of the form-->
+
+            <p>
+                <label>First name : <input name="FirstName"/></label>  <!--<label>reprents a caption in UI-->
+            </p>
+            <p>
+                <label>Last name : <input name="lastName" /></label>
+            </p>
+            <p>
+                Gender :
+                <label><input type="radio" name="gender"
+                    value="male" /> Male</label>
+ 
+                <label><input type="radio" name="gender"
+                    value="female" /> Female</label>
+            </p>
+ 
+            <p>
+                <label>Email : <input type="email"
+                    name="email" /></label>
+            </p>
+ 
+            <p>
+                <label>Date of Birth : <input type="date"
+                    name="birthDate"></label>
+            </p>
+            <p>
+                <label>Address :
+                    <br />
+                    <textarea name="address" cols="30"
+                        rows="3"></textarea>
+                </label>
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+            </fieldset>
+        </form>
+   
+    
+</body>
+</html>
