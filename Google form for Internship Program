@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google form</title>
+</head>
+<body style="background-color: rgb(183, 152, 196);">
+    <h1 style="text-align: center;"><big>GOOGLE FORM</big></h1>
+    <br>
+<form action = "action.php">
+    <hr>
+    <legend><b>REGISTRATION FORM FOR INTERNSHIP PROGRAM<b></b></legend>
+    <hr>
+    
+
+    <P>
+        <label>First Name : <input name="first name"></label>
+    </P>
+    <br>
+    <p>
+        <label>Middle Name : <input name="middle name"></label>
+    </p>
+    <br>
+    <p>
+        <label>Last Name : <input name="last name"></label>
+    </p>
+    <br>
+    <p>
+        <label>Date of Birth : <input type="Date"></label>
+    </p>
+    <br>
+    <p>
+        <label>Email : <input type="email"></label>
+    </p>
+    <br>
+    <p>
+        <label>City : <input type="city"></label>
+    </p>
+    <br>
+    <h5>Internship you are interseted in ?</h5>
+    
+    <label>
+        <label for="Web Development">
+            <input type="checkbox" value="webdevelopment" name="subject" id="101">Web Development
+        </label>
+        <br>
+    <label>
+        <label for="Artifical Intelligence">
+            <input type="checkbox" value="Artifical Intelligence" name="subject" id="102">Artifical Intelligence
+        </label>
+   </label>
+   <br>
+   <label>
+    <label for="Mobile Development">
+        <input type="checkbox" value="Mobile Development" name="subject" id="103">Mobile Development
+    </label>
+    </label>
+    <br>
+    <label>
+        <label for="data science">
+            <input type="checkbox" value="data science" name="subject" id="104">Data science
+        </label>
+   </label>
+   <br>
+   <label>
+    <label for="other">
+        <input type="checkbox" value="other" name="subject" id="105">other
+    </label>
+</label>
+<br>
+<br>
+<p>
+    <label>Linkdein Profile URL : <input type="linkdeinprofileurl"></label>
+</p>
+<br>
+<p>
+    <label>Github Profile URL : <input type="Githubprofileurl"></label>
+</p>
+<br>
+<p>
+    <label>Any SUGGESTION ? : <input type="anysuggestion"></label>
+</p>
+<br>
+<p>
+    <button type="submit">Submit</button>
+</p>
+</form>
+</body>
+</html> 
